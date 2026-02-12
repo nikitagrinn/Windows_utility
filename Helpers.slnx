@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Helpers/Helpers.vcxproj" Id="923c522f-3e23-4cb8-81bb-5156fb681268" />
+</Solution>
