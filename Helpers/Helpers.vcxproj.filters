@@ -1,22 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Исходные файлы">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Core">
+      <UniqueIdentifier>{40eabf2030254caaba14273f75a4fdb4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Core\Globals">
+      <UniqueIdentifier>{b9a17b4743f9494c9bce3e5b26976430}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы ресурсов">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Core\Types">
+      <UniqueIdentifier>{57aca8919e65404eb437227ec550db90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{fe2e2b1ae6f04faf96b7dbf27664400e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\GenerateAllTxt">
+      <UniqueIdentifier>{8969dee6ec5b4277b429a44c9bb57b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\GenerateFileList">
+      <UniqueIdentifier>{13c4b42207094fc28e2f8ffec6ea3971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\PasteImage">
+      <UniqueIdentifier>{2b942c49790d4b9c84b0d7d0b80c259e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{1fef77d701474c768b9599d540fc49f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ProgressWindow">
+      <UniqueIdentifier>{f9752cde542e4b9694d81640c5a630dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{f3194566b6854fbc8a953670d53e633f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\FileSystem">
+      <UniqueIdentifier>{a63bd33f2ca345e6bbb5f132bfaee3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\SIMD">
+      <UniqueIdentifier>{8f14b6cc913e4ca6af797740df134c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Strings">
+      <UniqueIdentifier>{c199c0c43cc843749bd3a87ad7c3389b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Helpers.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="Core\Globals\Globals.cpp">
+      <Filter>Core\Globals</Filter>
     </ClCompile>
+    <ClCompile Include="Utils\FileSystem\FileSystemUtils.cpp">
+      <Filter>Utils\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Strings\StringUtils.cpp">
+      <Filter>Utils\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\SIMD\SIMDUtils.cpp">
+      <Filter>Utils\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\PasteImage\PasteImage.cpp">
+      <Filter>Features\PasteImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\GenerateFileList\GenerateFileList.cpp">
+      <Filter>Features\GenerateFileList</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\GenerateAllTxt\GenerateAllTxt.cpp">
+      <Filter>Features\GenerateAllTxt</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ProgressWindow\ProgressWindow.cpp">
+      <Filter>UI\ProgressWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Globals\Globals.h">
+      <Filter>Core\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Types\CoreTypes.h">
+      <Filter>Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileSystem\FileSystemUtils.h">
+      <Filter>Utils\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Strings\StringUtils.h">
+      <Filter>Utils\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SIMD\SIMDUtils.h">
+      <Filter>Utils\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\PasteImage\PasteImage.h">
+      <Filter>Features\PasteImage</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\GenerateFileList\GenerateFileList.h">
+      <Filter>Features\GenerateFileList</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\GenerateAllTxt\GenerateAllTxt.h">
+      <Filter>Features\GenerateAllTxt</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ProgressWindow\ProgressWindow.h">
+      <Filter>UI\ProgressWindow</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
