@@ -147,6 +147,7 @@
     <ClCompile Include="Features\PasteImage\PasteImage.cpp" />
     <ClCompile Include="Features\GenerateFileList\GenerateFileList.cpp" />
     <ClCompile Include="Features\GenerateAllTxt\GenerateAllTxt.cpp" />
+    <ClCompile Include="Features\Scripts\Scripts.cpp" />
     <ClCompile Include="UI\ProgressWindow\ProgressWindow.cpp" />
     <ClCompile Include="Helpers.cpp" />
   </ItemGroup>
@@ -159,6 +160,7 @@
     <ClInclude Include="Features\PasteImage\PasteImage.h" />
     <ClInclude Include="Features\GenerateFileList\GenerateFileList.h" />
     <ClInclude Include="Features\GenerateAllTxt\GenerateAllTxt.h" />
+    <ClInclude Include="Features\Scripts\Scripts.h" />
     <ClInclude Include="UI\ProgressWindow\ProgressWindow.h" />
   </ItemGroup>
 </Project>

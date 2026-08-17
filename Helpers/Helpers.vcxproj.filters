@@ -22,6 +22,9 @@
     <Filter Include="Features\PasteImage">
       <UniqueIdentifier>{2b942c49790d4b9c84b0d7d0b80c259e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Features\Scripts">
+      <UniqueIdentifier>{a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6}</UniqueIdentifier>
+    </Filter>
     <Filter Include="UI">
       <UniqueIdentifier>{1fef77d701474c768b9599d540fc49f5}</UniqueIdentifier>
     </Filter>
@@ -63,6 +66,9 @@
     <ClCompile Include="Features\GenerateAllTxt\GenerateAllTxt.cpp">
       <Filter>Features\GenerateAllTxt</Filter>
     </ClCompile>
+    <ClCompile Include="Features\Scripts\Scripts.cpp">
+      <Filter>Features\Scripts</Filter>
+    </ClCompile>
     <ClCompile Include="UI\ProgressWindow\ProgressWindow.cpp">
       <Filter>UI\ProgressWindow</Filter>
     </ClCompile>
@@ -93,6 +99,9 @@
     </ClInclude>
     <ClInclude Include="Features\GenerateAllTxt\GenerateAllTxt.h">
       <Filter>Features\GenerateAllTxt</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Scripts\Scripts.h">
+      <Filter>Features\Scripts</Filter>
     </ClInclude>
     <ClInclude Include="UI\ProgressWindow\ProgressWindow.h">
       <Filter>UI\ProgressWindow</Filter>
